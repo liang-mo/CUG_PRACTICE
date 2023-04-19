@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="" />
+    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/Dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +72,8 @@
       <workItem from="1681815966194" duration="354000" />
       <workItem from="1681816344118" duration="55000" />
       <workItem from="1681816408982" duration="24000" />
+      <workItem from="1681886854025" duration="64000" />
+      <workItem from="1681889446603" duration="218000" />
     </task>
     <servers />
   </component>
