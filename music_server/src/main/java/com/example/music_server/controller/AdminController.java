@@ -16,7 +16,7 @@ public class AdminController {
     @Autowired
     private AdminServiceImpl adminService;
 
-    // 判断是否登录成功接口1234
+    // 判断是否登录成功接口12345
     @ResponseBody
     @PostMapping ("/admin/login/status")
         public Object loginStatus(HttpServletRequest req, HttpSession session) {
