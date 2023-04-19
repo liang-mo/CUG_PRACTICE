@@ -6,7 +6,10 @@ import com.example.music_server.service.impl.AdminServiceImpl;
 
 import org.apache.commons.lang3.ObjectUtils.Null;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -16,10 +19,10 @@ public class AdminController {
     @Autowired
     private AdminServiceImpl adminService;
 
-    // 判断是否登录成功接口111
+    // 判断是否登录成功
     @ResponseBody
-    @PostMapping ("/admin/login/status")
-        public Object loginStatus(HttpServletRequest req, HttpSession session) {
+    @RequestMapping(value = "/admin/login/status", method = RequestMethod.POST)
+    public Object loginStatus(HttpServletRequest req, HttpSession session) {
         String name = req.getParameter("name");
         String password = req.getParameter("password");
 
