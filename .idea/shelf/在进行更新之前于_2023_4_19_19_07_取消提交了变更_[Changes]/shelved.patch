@@ -1,0 +1,79 @@
+Index: music_server/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.datasource.url=jdbc:mysql://localhost:3306/music?serverTimezone=Asia/Shanghai\r\nspring.datasource.username=root\r\nspring.datasource.password=123456\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\n\r\nmybatis.typeAliasesPackage=com.example.yin.domain\r\nmybatis.mapperLocations=classpath:mapper/*.xml\r\n\r\nspring.jackson.date-format=yyyy-MM-dd HH:mm:ss\r\nspring.jackson.time-zone=GMT+8\r\n\r\nserver.port=8081\r\n\r\n#?????\r\nspring.devtools.restart.enabled=true\r\n\r\n#???????\r\nspring.devtools.restart.additional-paths=src/main/java\r\n\r\n#classpath????WEB-INF??????????\r\nspring.devtools.restart.exclude=WEB-INF/**\r\n\r\n# ??CONDITIONS EVALUATION REPORT??????????????\r\nlogging.level.org.springframework.boot.autoconfigure=ERROR\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/music_server/src/main/resources/application.properties b/music_server/src/main/resources/application.properties
+--- a/music_server/src/main/resources/application.properties	(revision 8f6bbe625811ee9802845dd72ddfc6ba256c7890)
++++ b/music_server/src/main/resources/application.properties	(date 1681894601471)
+@@ -1,6 +1,6 @@
+-spring.datasource.url=jdbc:mysql://localhost:3306/music?serverTimezone=Asia/Shanghai
++spring.datasource.url=jdbc:mysql://localhost:3306/tp_music?serverTimezone=Asia/Shanghai
+ spring.datasource.username=root
+-spring.datasource.password=123456
++spring.datasource.password=zhouhang
+ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+ 
+ mybatis.typeAliasesPackage=com.example.yin.domain
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8e3fe514-27d8-424c-bf30-079524560700\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/Dao/AdminMapper.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/config/WebMvcConfig.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/controller/AdminController.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/domain/Admin.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/AdminService.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/impl/AdminServiceImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/music_server/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/music_server/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ob4UEQxyvTaJD1QiPNP6NCSZ1q\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"CUG_PRACTICE\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"CUG_PRACTICE\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8e3fe514-27d8-424c-bf30-079524560700\" name=\"Changes\" comment=\"\" />\r\n      <created>1681815962511</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1681815962511</updated>\r\n      <workItem from=\"1681815966194\" duration=\"354000\" />\r\n      <workItem from=\"1681816344118\" duration=\"55000\" />\r\n      <workItem from=\"1681816408982\" duration=\"24000\" />\r\n      <workItem from=\"1681886854025\" duration=\"64000\" />\r\n      <workItem from=\"1681889446603\" duration=\"218000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8f6bbe625811ee9802845dd72ddfc6ba256c7890)
++++ b/.idea/workspace.xml	(date 1681902345189)
+@@ -4,16 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/Dao/AdminMapper.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/config/WebMvcConfig.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/controller/AdminController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/domain/Admin.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/AdminService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/impl/AdminServiceImpl.java" afterDir="false" />
++    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="Changes">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/music_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/music_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/src/main/resources/application.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -46,21 +39,6 @@
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+ }</component>
+-  <component name="RunManager">
+-    <configuration default="true" type="JetRunConfigurationType">
+-      <module name="CUG_PRACTICE" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+-      <module name="CUG_PRACTICE" />
+-      <option name="filePath" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -74,6 +52,8 @@
+       <workItem from="1681816408982" duration="24000" />
+       <workItem from="1681886854025" duration="64000" />
+       <workItem from="1681889446603" duration="218000" />
++      <workItem from="1681893065448" duration="29000" />
++      <workItem from="1681900600432" duration="663000" />
+     </task>
+     <servers />
+   </component>
