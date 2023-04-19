@@ -20,6 +20,7 @@ public class AdminController {
     private AdminServiceImpl adminService;
 
     // 判断是否登录成功
+    //test
     @ResponseBody
     @RequestMapping(value = "/admin/login/status", method = RequestMethod.POST)
     public Object loginStatus(HttpServletRequest req, HttpSession session) {
