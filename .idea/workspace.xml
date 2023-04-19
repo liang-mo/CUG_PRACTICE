@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/CUG_PRACTICE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_4_19_19_07_取消提交了变更_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="music_back 构建">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +53,30 @@
       <workItem from="1681886854025" duration="64000" />
       <workItem from="1681889446603" duration="218000" />
       <workItem from="1681904055389" duration="143000" />
+      <workItem from="1681905403135" duration="330000" />
     </task>
+    <task id="LOCAL-00001" summary="music_back 构建">
+      <created>1681905445845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681905445845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="music_back 构建">
+      <created>1681905497698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681905497698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="music_back 构建">
+      <created>1681905674266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681905674266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="music_back 构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="music_back 构建" />
   </component>
 </project>
