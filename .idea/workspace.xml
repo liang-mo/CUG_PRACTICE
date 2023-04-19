@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/Dao/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/domain/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/service/impl/AdminServiceImpl.java" afterDir="false" />
+    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="music_back 构建">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/music_server/src/main/java/com/example/music_server/MusicServerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +34,11 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="CUG_PRACTICE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="CUG_PRACTICE" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,10 +52,62 @@
       <workItem from="1681816408982" duration="24000" />
       <workItem from="1681886854025" duration="64000" />
       <workItem from="1681889446603" duration="218000" />
+      <workItem from="1681904055389" duration="143000" />
+      <workItem from="1681905403135" duration="330000" />
     </task>
+    <task id="LOCAL-00001" summary="music_back 构建">
+      <created>1681905445845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681905445845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="music_back 构建">
+      <created>1681905497698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681905497698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="music_back 构建">
+      <created>1681905674266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681905674266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/zh" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <MESSAGE value="music_back 构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="music_back 构建" />
   </component>
 </project>
