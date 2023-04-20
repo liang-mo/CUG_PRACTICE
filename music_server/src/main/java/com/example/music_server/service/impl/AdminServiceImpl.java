@@ -2,7 +2,7 @@ package com.example.music_server.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.music_server.Dao.AdminMapper;
+import com.example.music_server.dao.AdminMapper;
 import com.example.music_server.service.AdminService;
 
 @Service
