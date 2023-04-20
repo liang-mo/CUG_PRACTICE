@@ -5,12 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="music_back 构建">
+      <change afterPath="$PROJECT_DIR$/music_front/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/actions/action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/api/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/icons/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/icons/iconfont1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/icons/iconfont2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/icons/iconfont3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/icons/iconfont4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/blur-1851426_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/boy-984293_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/concert-768722_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/ipad-605439_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/microphone-1209816_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/music-notes-3221097_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/piano-1655558_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/swiper/turntable-1337986_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/tubiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/ShowList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/area.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/icon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/music-name.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/nav.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/router-name.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/singer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/songList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/swiper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/enums/validate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/store/configure.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/store/song.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/store/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,21 +79,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/IPSE/CUG_PRACTICE/music_front/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "ts.external.directory.path": "D:\\IPSE\\CUG_PRACTICE\\music_front\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\views" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components\layouts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +120,7 @@
       <workItem from="1681889446603" duration="218000" />
       <workItem from="1681904055389" duration="143000" />
       <workItem from="1681905403135" duration="330000" />
+      <workItem from="1681999875223" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="music_back 构建">
       <created>1681905445845</created>
@@ -93,7 +160,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/zh" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
