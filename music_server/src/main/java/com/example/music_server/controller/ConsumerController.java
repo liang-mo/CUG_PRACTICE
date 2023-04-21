@@ -195,7 +195,7 @@ public class ConsumerController {
     }
 
     /**
-     * 更新用户密码
+     * 修改用户密码
      */
     @ResponseBody
     @RequestMapping(value = "/user/updatePassword", method = RequestMethod.POST)
