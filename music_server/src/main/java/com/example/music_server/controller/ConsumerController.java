@@ -122,36 +122,36 @@ public class ConsumerController {
     /**
      * 返回所有用户
      */
-//    @RequestMapping(value = "/user", method = RequestMethod.GET)
-//    public Object allUser() {
-//        return new SuccessMessage<List<Consumer>>(null, consumerService.allUser()).getMessage();
-//    }
-//
-//    /**
-//     * 返回指定 ID 的用户
-//     */
-//    @RequestMapping(value = "/user/detail", method = RequestMethod.GET)
-//    public Object userOfId(HttpServletRequest req) {
-//        String id = req.getParameter("id");
-//
-//        return new SuccessMessage<List<Consumer>>(null, consumerService.userOfId(Integer.parseInt(id))).getMessage();
-//    }
-//
-//    /**
-//     * 删除用户
-//     */
-//    @RequestMapping(value = "/user/delete", method = RequestMethod.GET)
-//    public Object deleteUser(HttpServletRequest req) {
-//        String id = req.getParameter("id");
-//
-//        boolean res = consumerService.deleteUser(Integer.parseInt(id));
-//        if (res) {
-//            return new SuccessMessage<Null>("删除成功").getMessage();
-//        } else {
-//            return new ErrorMessage("删除失败").getMessage();
-//        }
-//    }
-//
+    @RequestMapping(value = "/user", method = RequestMethod.GET)
+    public Object allUser() {
+        return new SuccessMessage<List<Consumer>>(null, consumerService.allUser()).getMessage();
+    }
+
+    /**
+     * 返回指定 ID 的用户
+     */
+    @RequestMapping(value = "/user/detail", method = RequestMethod.GET)
+    public Object userOfId(HttpServletRequest req) {
+        String id = req.getParameter("id");
+
+        return new SuccessMessage<List<Consumer>>(null, consumerService.userOfId(Integer.parseInt(id))).getMessage();
+    }
+
+    /**
+     * 删除用户
+     */
+    @RequestMapping(value = "/user/delete", method = RequestMethod.GET)
+    public Object deleteUser(HttpServletRequest req) {
+        String id = req.getParameter("id");
+
+        boolean res = consumerService.deleteUser(Integer.parseInt(id));
+        if (res) {
+            return new SuccessMessage<Null>("删除成功").getMessage();
+        } else {
+            return new ErrorMessage("删除失败").getMessage();
+        }
+    }
+
     /**
      * 更新用户信息
      */
