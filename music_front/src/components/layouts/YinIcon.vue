@@ -1,3 +1,4 @@
+<!--以地址调用图片-->
 <template>
   <svg class="icon" aria-hidden="true">
     <use :xlink:href="icon"></use>
