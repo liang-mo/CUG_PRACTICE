@@ -4,8 +4,8 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication//123456
-@MapperScan("com.example.music_server.Dao")
+@SpringBootApplication
+@MapperScan("com.example.music_server.dao")
 public class MusicServerApplication {
 
 	public static void main(String[] args) {
