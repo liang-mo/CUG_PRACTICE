@@ -1,4 +1,4 @@
-<!--导航栏点击跳转按钮：首页，歌单，歌手-->
+<!--顶部导航栏页面选择栏-->
 <template>
   <ul class="yin-header-nav">
     <li :class="{ active: item.name === activeName }" v-for="item in styleList" :key="item.path" @click="handleChangeView(item)">

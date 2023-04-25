@@ -33,6 +33,26 @@ const routes: Array<RouteRecordRaw> = [
         name: "sign-up",
         component: () => import("../views/SignUp.vue"),
       },
+      {
+        path: "/song-sheet",
+        name: "song-sheet",
+        component: () => import("../views/song_sheet/SongSheet.vue"),
+      },
+      {
+        path: "/song-sheet-detail/:id",
+        name: "song-sheet-detail",
+        component: () => import("../views/song_sheet/SongSheetDetail.vue"),
+      },
+      {
+        path: "/singer",
+        name: "singer",
+        component: () => import("@/views/singer/Singer.vue"),
+      },
+      {
+        path: "/singer-detail/:id",
+        name: "singer-detail",
+        component: () => import("@/views/singer/SingerDetail.vue"),
+      },
     ]
   }
 ];

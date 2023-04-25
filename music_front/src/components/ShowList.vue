@@ -1,5 +1,6 @@
+<!--歌单/歌手展示列表-->
 <template>
-  <div class="play-list">
+  <div class="show-list">
     <div class="play-title" v-if="title">{{ title }}</div>
     <ul class="play-body">
       <li class="card-frame" v-for="(item, index) in playList" :key="index">
@@ -55,7 +56,7 @@ export default defineComponent({
 @import "@/assets/css/var.scss";
 @import "@/assets/css/global.scss";
 
-.play-list {
+.show-list {
   padding: 0 1rem;
 
   .play-title {
