@@ -1,7 +1,6 @@
-package com.example.music_server.Dao;
+package com.example.music_server.dao;
 
 import com.example.music_server.domain.Admin;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 

@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="music_back 构建">
+    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="前端主页及部分基础部件">
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinHeaderNav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinLoginIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/SignIn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/SignUp.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/YinContainer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/error/404.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/components/layouts/YinIcon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinIcon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/enums/music-name.ts" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/enums/music-name.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/views/AboutView.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,15 +49,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IPSE/CUG_PRACTICE/music_front/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IPSE\\CUG_PRACTICE\\music_front\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\views" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components\layouts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +84,9 @@
       <workItem from="1681889446603" duration="218000" />
       <workItem from="1681904055389" duration="143000" />
       <workItem from="1681905403135" duration="330000" />
+      <workItem from="1681999875223" duration="1288000" />
+      <workItem from="1682067266682" duration="842000" />
+      <workItem from="1682074820457" duration="8123000" />
     </task>
     <task id="LOCAL-00001" summary="music_back 构建">
       <created>1681905445845</created>
@@ -76,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681905674266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="前端主页及部分基础部件">
+      <created>1682001142508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682001142508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +133,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/zh" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -108,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="music_back 构建" />
-    <option name="LAST_COMMIT_MESSAGE" value="music_back 构建" />
+    <MESSAGE value="前端主页及部分基础部件" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端主页及部分基础部件" />
   </component>
 </project>
