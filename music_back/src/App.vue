@@ -1,26 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts" setup>
+import { getCurrentInstance } from "vue";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+const { proxy } = getCurrentInstance();
+
+if (sessionStorage.getItem("dataStore")) {
+  proxy.$store.replaceState(Object.assign({}, proxy.$store.state, JSON.parse(sessionStorage.getItem("dataStore"))));
 }
+
+window.addEventListener("beforeunload", () => {
+  sessionStorage.setItem("dataStore", JSON.stringify(proxy.$store.state));
+});
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

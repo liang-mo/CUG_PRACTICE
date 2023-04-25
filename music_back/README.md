@@ -1,4 +1,4 @@
-# music_back
+# music-manage
 
 ## Project setup
 ```
