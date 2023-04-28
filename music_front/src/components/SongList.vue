@@ -1,4 +1,4 @@
-<!--歌曲展示列表（在歌单/歌手详情页中）-->
+<!--歌曲展示列表（在 歌单详情页/歌手详情页/搜索歌曲页 中）-->
 <template>
   <div class="content">
     <el-table highlight-current-row :data="dataList" @row-click="handleClick">

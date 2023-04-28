@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="主页导航栏+登陆注册+404（搜索栏对齐待解决）">
-      <change afterPath="$PROJECT_DIR$/music_front/src/components/Comment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/components/SongList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinNav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/singer/Singer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/singer/SingerDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/song_sheet/SongSheet.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/song_sheet/SongSheetDetail.vue" afterDir="false" />
+    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="歌单/歌手分类界面完善">
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/sign.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/var.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/yin-current-play.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/yin-play-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/search/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/search/SearchSong.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/search/SearchSongSheet.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_front/src/components/ShowList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/ShowList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_front/src/components/layouts/YinHeaderNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinHeaderNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/components/SongList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/SongList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/components/layouts/YinNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music_front/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/IPSE/CUG_PRACTICE/music_front/src",
+    "last_opened_file_path": "D:/IPSE/CUG_PRACTICE/music_front/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\assets" />
       <recent name="D:\IPSE\CUG_PRACTICE\music_front\src" />
       <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\views" />
       <recent name="D:\IPSE\CUG_PRACTICE\music_front" />
       <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components" />
-      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components\layouts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +88,8 @@
       <workItem from="1681999875223" duration="1288000" />
       <workItem from="1682067266682" duration="842000" />
       <workItem from="1682074820457" duration="8490000" />
-      <workItem from="1682420111836" duration="5505000" />
+      <workItem from="1682420111836" duration="5752000" />
+      <workItem from="1682672500942" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="music_back 构建">
       <created>1681905445845</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682156372595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="歌单/歌手分类界面完善">
+      <created>1682426133509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682426133510</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +167,7 @@
     <MESSAGE value="music_back 构建" />
     <MESSAGE value="前端主页及部分基础部件" />
     <MESSAGE value="主页导航栏+登陆注册+404（搜索栏对齐待解决）" />
-    <option name="LAST_COMMIT_MESSAGE" value="主页导航栏+登陆注册+404（搜索栏对齐待解决）" />
+    <MESSAGE value="歌单/歌手分类界面完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="歌单/歌手分类界面完善" />
   </component>
 </project>

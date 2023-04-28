@@ -1,4 +1,4 @@
-<!--歌单/歌手页面类别选择栏-->
+<!--歌单/歌手/搜索 页面类别选择栏-->
 <template>
   <ul class="yin-nav">
     <li v-for="(item, index) in styleList" :key="index" :class="{ active: item.name == activeName }" @click="handleChangeView(item)">
