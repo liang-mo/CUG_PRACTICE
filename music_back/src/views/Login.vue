@@ -1,6 +1,6 @@
 <template>
   <div class="login-container">
-    <div class="title">{{ nusicName }}</div>
+    <div class="title">{{ musicName }}</div>
     <div class="login">
       <el-form :model="ruleForm" :rules="rules">
         <el-form-item prop="username">
@@ -28,7 +28,7 @@ export default defineComponent({
     const { proxy } = getCurrentInstance();
     const { routerManager } = mixin();
 
-    const nusicName = ref(MUSICNAME);
+    const musicName = ref(MUSICNAME);
     const ruleForm = reactive({
       username: "admin",
       password: "123",
@@ -50,7 +50,7 @@ export default defineComponent({
       if (result.success) routerManager(RouterName.Info, { path: RouterName.Info });
     }
     return {
-      nusicName,
+      musicName,
       ruleForm,
       rules,
       submitForm,

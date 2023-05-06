@@ -28,6 +28,15 @@ const HttpManager = {
   // 返回的指定用户ID收藏列表
   getSongOfId: (id) => get(`song/detail?id=${id}`),
 
+  // =======================> 歌手 API
+  // 返回所有歌手
+  getAllSinger: () => get(`singer`),
+  // 添加歌手
+  setSinger: (params) => post(`singer/add`, params),
+  // 更新歌手信息
+  updateSingerMsg: (params) => post(`singer/update`, params),
+  // 删除歌手
+  deleteSinger: (id) => get(`singer/delete?id=${id}`),
 }
 
 export { HttpManager }
