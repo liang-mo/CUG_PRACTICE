@@ -90,6 +90,11 @@ public class SingerController {
         return new SuccessMessage<List<Singer>>(null, singerService.allSinger()).getMessage();
     }
 
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public Object test() {
+        return"hello test";
+    }
+
     // 根据歌手名查找歌手
     @RequestMapping(value = "/singer/name/detail", method = RequestMethod.GET)
     public Object singerOfName(HttpServletRequest req) {
