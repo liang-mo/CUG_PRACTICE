@@ -91,8 +91,9 @@ public class SingerController {
     }
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
-    public Object test() {
-        return"hello test";
+    public Object test(HttpServletRequest req) {
+        String id = req.getParameter("id");
+        return"hello test  "+id;
     }
 
     // 根据歌手名查找歌手
