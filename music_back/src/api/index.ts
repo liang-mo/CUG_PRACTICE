@@ -25,6 +25,9 @@ const HttpManager = {
   // 删除收藏的歌曲
   deleteCollection: (userId, songId) => deletes(`collection/delete?userId=${userId}&&songId=${songId}`),
 
+  // 返回的指定用户ID收藏列表
+  getSongOfId: (id) => get(`song/detail?id=${id}`),
+
 }
 
 export { HttpManager }

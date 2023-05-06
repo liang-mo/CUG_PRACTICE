@@ -41,11 +41,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/ConsumerPage.vue'),
         meta: { title: 'Consumer' }
       },
-      // {
-      //   path: '/Collect',
-      //   component: () => import('@/views/CollectPage.vue'),
-      //   meta: { title: 'Collect' }
-      // }
+      {
+        path: '/Collect',
+        component: () => import('@/views/CollectPage.vue'),
+        meta: { title: 'Collect' }
+      }
     ]
   },
   {
