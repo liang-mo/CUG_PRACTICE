@@ -7,6 +7,7 @@
       <span>{{ musicName }}</span>
     </div>
     <!--页面切换按钮-->
+    <!--点击切换-->
     <yin-header-nav class="yin-header-nav" :styleList="headerNavList" :activeName="activeNavName" @click="goPage"></yin-header-nav>
     <!--搜索框-->
     <div class="header-search">
