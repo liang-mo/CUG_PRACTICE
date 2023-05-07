@@ -25,8 +25,6 @@ const HttpManager = {
   // 删除收藏的歌曲
   deleteCollection: (userId, songId) => deletes(`collection/delete?userId=${userId}&&songId=${songId}`),
 
-  // 返回的指定用户ID收藏列表
-  getSongOfId: (id) => get(`song/detail?id=${id}`),
 
   // =======================> 歌手 API
   // 返回所有歌手
@@ -37,6 +35,32 @@ const HttpManager = {
   updateSingerMsg: (params) => post(`singer/update`, params),
   // 删除歌手
   deleteSinger: (id) => get(`singer/delete?id=${id}`),
+
+  // =======================> 歌曲 API
+  // 返回所有歌曲
+  getAllSong: () => get(`song`),
+  // 返回指定歌手ID的歌曲
+  getSongOfSingerId: (id) => get(`song/singer/detail?singerId=${id}`),
+  // 返回的指定用户ID收藏列表
+  getSongOfId: (id) => get(`song/detail?id=${id}`),
+  // 返回指定歌手名的歌曲
+  getSongOfSingerName: (id) => get(`song/singerName/detail?name=${id}`),
+  // 更新歌曲信息
+  updateSongMsg: (params) => post(`song/update`, params),
+  updateSongUrl: (id) => `${getBaseURL()}/song/url/update?id=${id}`,
+  updateSongImg: (id) => `${getBaseURL()}/song/img/update?id=${id}`,
+  // 删除歌曲
+  deleteSong: (id) => get(`song/delete?id=${id}`),
+
+  // =======================> 歌单 API
+  // 添加歌单
+  setSongList: (params) => post(`songList/add`, params),
+  // 获取全部歌单
+  getSongList: () => get(`songList`),
+  // 更新歌单信息
+  updateSongListMsg: (params) => post(`songList/update`, params),
+  // 删除歌单
+  deleteSongList: (id) => get(`songList/delete?id=${id}`),
 }
 
 export { HttpManager }
