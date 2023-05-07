@@ -11,11 +11,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/InfoPage.vue'),
         meta: { title: 'Info' }
       },
-      // {
-      //   path: '/song',
-      //   component: () => import('@/views/SongPage.vue'),
-      //   meta: { title: 'Song' }
-      // },
+      {
+        path: '/song',
+        component: () => import('@/views/SongPage.vue'),
+        meta: { title: 'Song' }
+      },
       {
         path: '/singer',
         component: () => import('@/views/SingerPage.vue'),
