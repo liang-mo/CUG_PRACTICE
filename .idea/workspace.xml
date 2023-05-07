@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="歌单/歌手分类界面完善">
-      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/sign.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/var.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/yin-current-play.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/assets/css/yin-play-bar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/search/Search.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/search/SearchSong.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music_front/src/views/search/SearchSongSheet.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_front/src/components/SongList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/SongList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_front/src/components/layouts/YinNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_front/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/router/index.ts" afterDir="false" />
+    <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="前端主页及部分基础部件">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +44,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "D:\\IPSE\\CUG_PRACTICE\\music_front\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -169,5 +157,9 @@
     <MESSAGE value="主页导航栏+登陆注册+404（搜索栏对齐待解决）" />
     <MESSAGE value="歌单/歌手分类界面完善" />
     <option name="LAST_COMMIT_MESSAGE" value="歌单/歌手分类界面完善" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
