@@ -120,7 +120,9 @@ public class SongListController {
     @RequestMapping(value = "/songList/img/update", method = RequestMethod.POST)
     public Object updateSongListPic(@RequestParam("file") MultipartFile avatorFile, @RequestParam("id") int id) {
         String fileName = System.currentTimeMillis() + avatorFile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "songListPic";
+        String filePath = System.getProperty("file.separator")+
+                "home" + System.getProperty("file.separator")+"tp_music_data"
+                +  System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "songListPic";
         File file1 = new File(filePath);
         if (!file1.exists()) {
             file1.mkdir();

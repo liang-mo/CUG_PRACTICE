@@ -63,7 +63,9 @@ public class SongController {
         String lyric = req.getParameter("lyric").trim();
 
         String fileName = mpfile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "song";
+        String filePath = System.getProperty("file.separator")+
+                "home" + System.getProperty("file.separator")+"tp_music_data"
+                + System.getProperty("file.separator") + "song";
         File file1 = new File(filePath);
         if (!file1.exists()) {
             file1.mkdir();
@@ -167,7 +169,9 @@ public class SongController {
     @RequestMapping(value = "/song/img/update", method = RequestMethod.POST)
     public Object updateSongPic(@RequestParam("file") MultipartFile urlFile, @RequestParam("id") int id) {
         String fileName = System.currentTimeMillis() + urlFile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "songPic";
+        String filePath = System.getProperty("file.separator")+
+                "home" + System.getProperty("file.separator")+"tp_music_data"
+                 + System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "songPic";
         File file1 = new File(filePath);
         if (!file1.exists()) {
             file1.mkdir();
@@ -196,7 +200,9 @@ public class SongController {
     @RequestMapping(value = "/song/url/update", method = RequestMethod.POST)
     public Object updateSongUrl(@RequestParam("file") MultipartFile urlFile, @RequestParam("id") int id) {
         String fileName = urlFile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "song";
+        String filePath = System.getProperty("file.separator")+
+                "home" + System.getProperty("file.separator")+"tp_music_data"
+                +  System.getProperty("file.separator") + "song";
         File file1 = new File(filePath);
         if (!file1.exists()) {
             file1.mkdir();

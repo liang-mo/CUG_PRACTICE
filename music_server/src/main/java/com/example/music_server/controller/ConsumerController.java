@@ -5,6 +5,7 @@ import com.example.music_server.common.FatalMessage;
 import com.example.music_server.common.SuccessMessage;
 import com.example.music_server.common.WarningMessage;
 //import com.example.music_server.constant.Constants;
+import com.example.music_server.constant.Constants;
 import com.example.music_server.domain.Consumer;
 import com.example.music_server.service.impl.ConsumerServiceImpl;
 import org.apache.commons.lang3.ObjectUtils.Null;
@@ -225,31 +226,31 @@ public class ConsumerController {
     /**
      * 更新用户头像
      */
-//    @ResponseBody
-//    @RequestMapping(value = "/user/avatar/update", method = RequestMethod.POST)
-//    public Object updateUserPic(@RequestParam("file") MultipartFile avatorFile, @RequestParam("id") int id) {
-//        String fileName = System.currentTimeMillis() + avatorFile.getOriginalFilename();
-//        String filePath = Constants.PROJECT_PATH + System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "avatorImages";
-//        File file1 = new File(filePath);
-//        if (!file1.exists()) {
-//            file1.mkdir();
-//        }
-//
-//        File dest = new File(filePath + System.getProperty("file.separator") + fileName);
-//        String imgPath = "/img/avatorImages/" + fileName;
-//        try {
-//            avatorFile.transferTo(dest);
-//            Consumer consumer = new Consumer();
-//            consumer.setId(id);
-//            consumer.setAvator(imgPath);
-//            boolean res = consumerService.updateUserAvator(consumer);
-//            if (res) {
-//                return new SuccessMessage<String>("上传成功", imgPath).getMessage();
-//            } else {
-//                return new ErrorMessage("上传失败").getMessage();
-//            }
-//        } catch (IOException e) {
-//            return new FatalMessage("上传失败" + e.getMessage()).getMessage();
-//        }
-//    }
+    @ResponseBody
+    @RequestMapping(value = "/user/avatar/update", method = RequestMethod.POST)
+    public Object updateUserPic(@RequestParam("file") MultipartFile avatorFile, @RequestParam("id") int id) {
+        String fileName = System.currentTimeMillis() + avatorFile.getOriginalFilename();
+        String filePath = Constants.PROJECT_PATH + System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "avatorImages";
+        File file1 = new File(filePath);
+        if (!file1.exists()) {
+            file1.mkdir();
+        }
+
+        File dest = new File(filePath + System.getProperty("file.separator") + fileName);
+        String imgPath = "/img/avatorImages/" + fileName;
+        try {
+            avatorFile.transferTo(dest);
+            Consumer consumer = new Consumer();
+            consumer.setId(id);
+            consumer.setAvator(imgPath);
+            boolean res = consumerService.updateUserAvator(consumer);
+            if (res) {
+                return new SuccessMessage<String>("上传成功", imgPath).getMessage();
+            } else {
+                return new ErrorMessage("上传失败").getMessage();
+            }
+        } catch (IOException e) {
+            return new FatalMessage("上传失败" + e.getMessage()).getMessage();
+        }
+    }
 }
