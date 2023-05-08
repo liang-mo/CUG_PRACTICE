@@ -151,7 +151,8 @@ public class SingerController {
     @RequestMapping(value = "/singer/avatar/update", method = RequestMethod.POST)
     public Object updateSingerPic(@RequestParam("file") MultipartFile avatorFile, @RequestParam("id") int id) {
         String fileName = System.currentTimeMillis() + avatorFile.getOriginalFilename();
-        String filePath = "home" + System.getProperty("file.separator")+"tp_music_data"
+        String filePath = System.getProperty("file.separator")+
+                "home" + System.getProperty("file.separator")+"tp_music_data"
                 + System.getProperty("file.separator") + "img"
                 + System.getProperty("file.separator") + "singerPic";
         File file1 = new File(filePath);
