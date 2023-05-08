@@ -68,7 +68,15 @@ const HttpManager = {
   // 返回歌单里指定歌单ID的歌曲
   getListSongOfSongId: (songListId) => get(`listSong/detail?songListId=${songListId}`),
   // 删除歌单里的歌曲
-  deleteListSong: (songId) => get(`listSong/delete?songId=${songId}`)
+  deleteListSong: (songId) => get(`listSong/delete?songId=${songId}`),
+
+  // =======================> 评论列表 API
+  // 获得指定歌曲ID的评论列表
+  getCommentOfSongId: (songId) => get(`comment/song/detail?songId=${songId}`),
+  // 获得指定歌单ID的评论列表
+  getCommentOfSongListId: (songListId) => get(`comment/songList/detail?songListId=${songListId}`),
+  // 删除评论
+  deleteComment: (id) => get(`comment/delete?id=${id}`)
 }
 
 export { HttpManager }

@@ -26,16 +26,16 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/SongListPage.vue'),
         meta: { title: 'SongList' }
       },
-      // {
-      //   path: '/ListSong',
-      //   component: () => import('@/views/ListSongPage.vue'),
-      //   meta: { title: 'ListSong' }
-      // },
-      // {
-      //   path: '/Comment',
-      //   component: () => import('@/views/CommentPage.vue'),
-      //   meta: { title: 'Comment' }
-      // },
+      {
+        path: '/ListSong',
+        component: () => import('@/views/ListSongPage.vue'),
+        meta: { title: 'ListSong' }
+      },
+      {
+        path: '/Comment',
+        component: () => import('@/views/CommentPage.vue'),
+        meta: { title: 'Comment' }
+      },
       {
         path: '/Consumer',
         component: () => import('@/views/ConsumerPage.vue'),
