@@ -10,10 +10,6 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("../views/error/404.vue"),
   },
   {
-    path: "/hhh",
-    component: () => import("../views/SignIn.vue"),
-  },
-  {
     path: "/",
     name: "yin-container",
     component: () => import("../views/YinContainer.vue"),
@@ -32,6 +28,37 @@ const routes: Array<RouteRecordRaw> = [
         path: "/sign-up",
         name: "sign-up",
         component: () => import("../views/SignUp.vue"),
+      },
+      {
+        path: "/personal",
+        name: "personal",
+        meta: {
+          requireAuth: true,
+        },
+        component: () => import("../views/personal/Personal.vue"),
+      },
+      {
+        path: "/setting",
+        name: "setting",
+        meta: {
+          requireAuth: true,
+        },
+        component: () => import("../views/setting/Setting.vue"),
+        children: [
+          {
+            path: "/setting/PersonalData",
+            name: "personalData",
+            meta: {
+              requireAuth: true,
+            },
+            component: () => import("@/views/setting/PersonalData.vue"),
+          }
+        ]
+      },
+      {
+        path: "/personal-data",
+        name: "personal-data",
+        component: () => import("@/views/setting/PersonalData.vue"),
       },
       {
         path: "/song-sheet",
@@ -57,6 +84,11 @@ const routes: Array<RouteRecordRaw> = [
         path: "/search",
         name: "search",
         component: () => import("@/views/search/Search.vue"),
+      },
+      {
+        path: "/lyric/:id",
+        name: "lyric",
+        component: () => import("@/views/Lyric.vue"),
       },
     ]
   }

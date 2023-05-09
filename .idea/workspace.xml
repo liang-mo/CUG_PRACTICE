@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3fe514-27d8-424c-bf30-079524560700" name="Changes" comment="前端主页及部分基础部件">
+      <change afterPath="$PROJECT_DIR$/music_front/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinAudio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinCurrentPlay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinPlayBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/components/layouts/YinScrollTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/Lyric.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/personal/Personal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/setting/Password.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/setting/PersonalData.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/setting/Setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_front/src/views/setting/Upload.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2023_4_19_19_07___Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_front/src/views/YinContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/music_front/src/views/YinContainer.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/IPSE/CUG_PRACTICE/music_front/src/assets",
+    "last_opened_file_path": "D:/IPSE/CUG_PRACTICE/music_front",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components\layouts" />
+      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\views" />
       <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\assets" />
       <recent name="D:\IPSE\CUG_PRACTICE\music_front\src" />
-      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\views" />
-      <recent name="D:\IPSE\CUG_PRACTICE\music_front" />
-      <recent name="D:\IPSE\CUG_PRACTICE\music_front\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,6 +93,7 @@
       <workItem from="1682074820457" duration="8490000" />
       <workItem from="1682420111836" duration="5752000" />
       <workItem from="1682672500942" duration="1204000" />
+      <workItem from="1683636380779" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="music_back 构建">
       <created>1681905445845</created>
