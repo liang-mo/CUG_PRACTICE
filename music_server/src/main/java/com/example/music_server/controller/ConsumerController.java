@@ -32,14 +32,14 @@ public class ConsumerController {
     @Autowired
     private ConsumerServiceImpl consumerService;
 
-//    @Configuration
-//    public static class MyPicConfig implements WebMvcConfigurer {
-//        @Override
-//        public void addResourceHandlers(ResourceHandlerRegistry registry) {
-//            registry.addResourceHandler("/img/avatorImages/**")
-//                    .addResourceLocations(Constants.AVATOR_IMAGES_PATH);
-//        }
-//    }
+    @Configuration
+    public static class MyPicConfig implements WebMvcConfigurer {
+        @Override
+        public void addResourceHandlers(ResourceHandlerRegistry registry) {
+            registry.addResourceHandler("/img/avatorImages/**")
+                    .addResourceLocations(Constants.AVATOR_IMAGES_PATH);
+        }
+    }
 
     /**
      * 用户注册
