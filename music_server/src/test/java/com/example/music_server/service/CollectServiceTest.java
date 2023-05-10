@@ -5,6 +5,7 @@ import com.example.music_server.service.impl.CollectServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
+@Transactional
 class CollectServiceTest {
     @Autowired
     private CollectServiceImpl collectService;
@@ -26,9 +28,9 @@ class CollectServiceTest {
 
     @Test
     void addCollection() {
-        collect.setUserId(35);
+        collect.setUserId(31);
         collect.setType(new Byte("0"));
-        collect.setSongId(124);
+        collect.setSongId(128);
         collect.setCreateTime(new Date());
         boolean result_Add = collectService.addCollection(collect);
         assertTrue(result_Add);

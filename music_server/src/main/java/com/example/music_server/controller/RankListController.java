@@ -53,7 +53,6 @@ public class RankListController {
     public Object getUserRank(HttpServletRequest req) {
         String consumerId = req.getParameter("consumerId");
         String songListId = req.getParameter("songListId");
-        
         return new SuccessMessage<Number>(null, rankListService.getUserRank(Long.parseLong(consumerId), Long.parseLong(songListId))).getMessage();
     }
 }
