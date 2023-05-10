@@ -2,6 +2,7 @@ package com.example.music_server.controller;
 
 import com.example.music_server.common.ErrorMessage;
 import com.example.music_server.common.SuccessMessage;
+import com.example.music_server.domain.Collect;
 import com.example.music_server.service.impl.AdminServiceImpl;
 
 import org.apache.commons.lang3.ObjectUtils.Null;

@@ -20,7 +20,7 @@ class CollectServiceTest {
 
     @Test
     void deleteCollect() {
-        boolean result_Delete = collectService.deleteCollect(35,124);
+        boolean result_Delete = collectService.deleteCollect(31,128);
         assertTrue(result_Delete);
     }
 
@@ -36,18 +36,18 @@ class CollectServiceTest {
 
     @Test
     void existSongId() {
-        boolean result = collectService.existSongId(35,124);
+        boolean result = collectService.existSongId(31,128);
         if(result){
             deleteCollect();
-            assertFalse(collectService.existSongId(35,124));
+            assertFalse(collectService.existSongId(31,128));
             addCollection();
-            assertTrue(collectService.existSongId(35,124));
+            assertTrue(collectService.existSongId(31,128));
         }
         else{
             addCollection();
-            assertTrue(collectService.existSongId(35,124));
+            assertTrue(collectService.existSongId(31,128));
             deleteCollect();
-            assertFalse(collectService.existSongId(35,124));
+            assertFalse(collectService.existSongId(31,128));
         }
 
         //assertTrue(collectService.existSongId(35,124));
@@ -55,7 +55,7 @@ class CollectServiceTest {
 
     @Test
     void collectionOfUser() {
-        List<Collect> test = collectService.collectionOfUser(35);
+        List<Collect> test = collectService.collectionOfUser(31);
         System.out.println(test);
     }
 }
